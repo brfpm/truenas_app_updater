@@ -4,6 +4,8 @@ Since ElectricEel (24.10), my custom apps don't show when there are images updat
 This script checks for updates for running custom apps and updates them if needed. It pulls the latest images and compares them with the currently running ones.
 
 ## Usage
+Run this script locally on your TrueNAS host. Depending on the user, you may need to use sudo.
+
 ```sh
 ./update.sh [OPTIONS]
 ```
@@ -29,3 +31,4 @@ Run the script normally (asks before updating each app):
 ```sh
 ./update.sh
 ```
+
