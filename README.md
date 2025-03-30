@@ -1,5 +1,5 @@
 # TrueNas Custom App Update Script
-Since ElectricEel (24.10), my custom apps don't show when there are images updates.
+Since ElectricEel (24.10), my custom apps don't show when there are updates available.
 
 This script checks for updates for running custom apps and updates them if needed. It pulls the latest images and compares them with the currently running ones.
 
